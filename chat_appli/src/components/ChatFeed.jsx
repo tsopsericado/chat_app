@@ -4,7 +4,7 @@ import MyMessage from "./MyMessage";
 import TheirMessage from "./TheirMessage";
 
 function ChatFeed(props) {
-  // let destructure something from props
+  // lets destructure something from props
 
 const { chats, activeChat, userName, messages } = props;
 

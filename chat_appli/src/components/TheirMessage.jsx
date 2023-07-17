@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TheirMessage() {
+const TheirMessage = ({ lastMessage, message}) {
   return (
     <div>TheirMessage</div>
   )
