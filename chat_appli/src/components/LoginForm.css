@@ -1,3 +1,40 @@
+.container {
+  background-image: linear-gradient(
+    15deg,
+    hsl(60deg 18% 96%) 0%,
+    hsl(100deg 37% 86%) 1%,
+    hsl(138deg 54% 75%) 3%,
+    hsl(176deg 73% 65%) 4%,
+    hsl(215deg 91% 55%) 7%,
+    hsl(248deg 96% 55%) 10%,
+    hsl(276deg 88% 65%) 16%,
+    hsl(304deg 78% 75%) 33%,
+    hsl(332deg 69% 85%) 69%,
+    hsl(0deg 62% 95%) 100%
+  );
+  height: 100vh;
+}
+
 .wrapper {
-  background-color:blue;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 20px;
+  margin: 15px;
+}
+
+.button {
+  padding: 15px;
+  margin: 10px;
 }
