@@ -16,9 +16,9 @@ const LoginForm = () => {
       "User-Name": username,
       "User-Secret": password,
     };
-
+ 
     try {
-      await axios.get("https:api.chatengine.io/chats", { headers: authObject });
+      await axios.get("https://api.chatengine.io/chats", { headers: authObject });
 
       localStorage.setItem("username", username);
       localStorage.setItem("password", password);
