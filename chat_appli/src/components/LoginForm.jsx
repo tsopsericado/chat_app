@@ -37,16 +37,16 @@ const LoginForm = () => {
           <form onSubmit={handleSubmit}>
             <input
               type="text"
-              value={'username'}
-              onchange={(e) => setUserName(e.target.value)}
+              value={username}
+              onChange={(e) => setUserName(e.target.value)}
               className="input"
               placeholder="username"
               required
             />
             <input
               type="password"
-              // value={password}
-              onchange={(e) => setPassword(e.target.value)}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               className="input"
               placeholder="password"
               required
